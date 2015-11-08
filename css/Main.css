@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	//background-color:#79AEFF;
+	background: url(../img/cover.jpg) no-repeat center;
+	background-size: cover;
+}
+
+/*Id CSS*/
+#container {
+    position:relative;
+	width:70%;
+	min-height:1250px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	overflow:hidden;
+	background-color:#FFFFFF;
+	box-shadow:10px 10px 2px #50506C;
+}
+
+#header {
+	position:relative;
+	height:250px;
+	background: url(../img/banner.jpg) no-repeat center;
+	background-size: cover;
+	//background-color:#FF3300;
+}
+
+#navBar {
+	position:relative;
+	height:50px;
+	background-color:#FFFFFF;
+}
+
+#main {
+	position:relative;
+	background-color:#FFFFFF;
+	padding:5px;
+}
+
+/*Class CSS*/
+.tag {
+	float:left;
+	margin-left:5px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#0000FF;
+}
+
+.special {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#B2CBFF;
+}
+
+.eList {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#FFFFFF;
+}
+
+.cList {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#FFFFFF;
+}
+
+.navtabs {
+	float:left;
+	margin-top:15px;
+	margin-left:5px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#000000;
+}
+
+.admintabs {
+	float:left;
+	margin-top:15px;
+	margin-left:5px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#FF0000;
+}
+
+.edit {
+	overflow:hidden;
+}
+
+.tabHeader {
+	background-color:#000000;
+	color:white;
+}
+
+.row30 {
+	background-color:#4D944D;
+	color:black;
+}
+
+.row20 {
+	background-color:#85E085;
+	color:black;
+}
+
+.row10 {
+	background-color:#FFFF85;
+	color:black;
+}
+
+.row0 {
+	background-color:#EAEAEA;
+	color:black;
+}
+
+.row1 {
+	background-color:#FFFFFF;
+	color:black;
+}
+
+.row-10 {
+	background-color:#FF704D;
+	color:black;
+}
+
+.errBlock {
+	background-color:#FF704D;
+	color:white;
+}
+
+/*Selector CSS*/
+
+/*Remove underlines and colour from <a> tag links*/
+.tag a, .navtabs a, .admintabs a  {
+    text-decoration: none;
+	color: white !important;
+}
+
+.eList a, .special a {
+    text-decoration: none;
+	color:black;
+}
+
+table {
+	//width:840px;
+	width:100%;
+	border:1px solid black;
+	//border-radius:25px;
+	border-collapse: collapse;
+}
+
+u {    
+    border-bottom: 1px dashed #000;
+    text-decoration: none;
+}
+
+tr, td {
+	//border:1px solid black;
+	text-align: center;
+}
